@@ -4,53 +4,11 @@ body{
     margin: 0;
     font-family: 'Lato', sans-serif;
 }
-.food{
-    width: 100%;
-    min-height: 300px;
-    background-image: url(../images/7.png);
-    background-repeat: no-repeat;
-    margin: 40px 0px;
-    overflow: hidden;
-    
-}
-.paragraph{
-    margin-top: 50px;
-    float: left;
-    width: 35%;
-}
-.paragraph p{
-    margin: 40px 20px;
-    text-align:left;
-    color:#676767;
-    line-height: 150%;
-   
-    
-}
-.paragraph h2{
-    margin: 40px 20px;
-    text-align:left;
-    color:black;
-    font-weight: 900;
-}
-.food img{
-    width: 50%;
-    float: left;
-
-}
-.anchor-button{
-    text-decoration: None;
-    color: white;
-    background:linear-gradient(180deg, orange, tomato);
-    margin:40px 20px;
-    padding:10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-}
-.anchor-button:hover{
-    color: green;
-}
 #topbar{
-    margin: 0px 40px;
+    margin: 0px;
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
    
     
 }
@@ -88,19 +46,73 @@ body{
     font-weight:900;
     color:#676767;
 }
+.food{
+    width: 100%;
+    min-height: 300px;
+    background-image: url(../images/7.png);
+    background-repeat: no-repeat;
+    margin: 40px 0px;
+    overflow: hidden;
+    
+}
+.paragraph{
+    margin-top: 50px;
+    float: left;
+    width: 35%;
+}
+.paragraph p{
+    margin: 40px 20px;
+    text-align:left;
+    color:#676767;
+    line-height: 150%;
+   
+    
+}
+.paragraph h2{
+    margin: 40px 20px;
+    text-align:left;
+    color:black;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.food img{
+    width: 50%;
+    float: left;
+
+}
+.anchor-button{
+    text-decoration: None;
+    color: white;
+    background:linear-gradient(180deg, orange, tomato);
+    margin:40px 20px;
+    padding:10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.anchor-button:hover{
+    color: green;
+}
+
 span{
     color:orange;
 }
 .Recipies{
     height: 200px;
     text-align: center;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+    margin-bottom: 40px;
 }
 .Recipies h2{
-    
     font-weight: 900;
     color: #676767;
     font-size: 28px;
     margin: 20px auto;
+    border-bottom: 3px solid red;
+    width: 200px;
 }
 .Recipies p{
     color: #676767;
@@ -120,7 +132,7 @@ span{
     border:10px solid White;
     border-radius: 40px;
     float:left;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 1px 2px 20px black;
     margin-right: 20px;
     margin-bottom: 40px;
 }
@@ -133,8 +145,8 @@ span{
 .column h2{
     width: 100%;
     text-align:left;
-    font-size: 36px;
-    color: #676767;
+    font-size: 24px;
+    color: #ff5200;
 }
 .column p{
     width: 100%;
@@ -145,6 +157,7 @@ span{
 .column img{
     width:100%;
     height:250px;
+    border-radius: 20px;
 }
 .subcribe-part{
     height: 300px;
@@ -186,7 +199,7 @@ span{
 }
 .end h2{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     color: #676767;
 }
 i{
