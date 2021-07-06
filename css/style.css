@@ -191,6 +191,7 @@ span{
 }
 i{
     color:#ff5200;
-	padding:15px 0px;
-	margin-left:15px;
+    font-size:40px;
+    text-align:left;
+    overflow: hidden;
 }
